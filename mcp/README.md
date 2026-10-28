@@ -50,6 +50,13 @@ Create `.vscode/mcp.json` in your project (or add it to your user MCP settings):
 }
 ```
 
+### Claude Code
+```bash
+claude mcp add prompt-break --scope user -- node "SERVER_PATH"
+```
+Start a new session and check with `/mcp`. In the terminal the result is shown as
+text (`# ROLE … # OUTPUT`) rather than the visual cards.
+
 ### Claude.ai (web) and ChatGPT: via an online address (coming soon, untested)
 After deploying the project to Vercel, the server lives at:
 

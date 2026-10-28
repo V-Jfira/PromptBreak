@@ -124,6 +124,20 @@ Then open Copilot Chat in Agent mode.
 </details>
 
 <details>
+<summary><b>Claude Code</b></summary>
+
+Run this once in your terminal:
+
+```bash
+claude mcp add prompt-break --scope user -- node "SERVER_PATH"
+```
+
+Then start a new Claude Code session and check it with `/mcp`. Prompt Break is now
+available in every project. In the terminal, the result shows up as text with
+`# ROLE … # OUTPUT` headings instead of the visual cards.
+</details>
+
+<details>
 <summary><b>Claude.ai (web) and ChatGPT (coming soon)</b></summary>
 
 🚧 **Coming soon.** These apps run in the browser, so they need Prompt Break hosted
