@@ -1,0 +1,31 @@
+{
+  "name": "prompt-break",
+  "version": "1.0.0",
+  "private": true,
+  "license": "PolyForm-Shield-1.0.0",
+  "description": "Turn one sentence into a six-part master prompt (Role, Task, Context, Reasoning, Stop conditions, Output), shown right inside Claude, ChatGPT, and Copilot as an MCP App.",
+  "author": "Valdy <valdytapahing@gmail.com> (https://github.com/V-Jfira)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V-Jfira/PromptBreak.git"
+  },
+  "homepage": "https://github.com/V-Jfira/PromptBreak#readme",
+  "type": "module",
+  "bin": {
+    "prompt-break-mcp": "mcp/server.js"
+  },
+  "files": [
+    "mcp/server.js",
+    "mcp/core.js",
+    "mcp/http.js",
+    "mcp/view/"
+  ],
+  "scripts": {
+    "mcp": "node mcp/server.js",
+    "mcp:http": "node mcp/server.js --http 3333"
+  },
+  "keywords": ["mcp", "mcp-app", "prompt", "claude", "chatgpt", "copilot"],
+  "engines": {
+    "node": ">=18"
+  }
+}
